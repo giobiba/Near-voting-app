@@ -27,6 +27,7 @@ export async function initContract() {
     changeMethods: ['addUrl',
                     'setCandidates',
                     'addCandidate',
+                    'addToPromptArray',
                     'clearPromptArray',
                     'addVote',
                     'recordUser'],
